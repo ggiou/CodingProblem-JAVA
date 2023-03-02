@@ -20,6 +20,7 @@ public class B_1001 {
 		int A = Integer.parseInt(st.nextToken()); //버퍼리더는 string으로 저장되 무저건 정수 변환해줘야 함
 		int B = Integer.parseInt(st.nextToken());
 		System.out.print(A-B);
+		br.close();
 		//2. Buffer -> 120ms, 더 효율적인것 확인
 	}
 }
