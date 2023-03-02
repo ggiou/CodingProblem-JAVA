@@ -17,15 +17,15 @@ public class B_1000 {
 		*/
 		// 1. scanner
 		
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); //reader = scanner
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //reader = scanner
 		
-		StringTokenizer st = new StringTokenizer(bf.readLine()," "); // tokenizer 선언, space기준으로 구분
+		StringTokenizer st = new StringTokenizer(br.readLine()," "); // tokenizer 선언, space기준으로 구분
 		
 		int A = Integer.parseInt(st.nextToken());
 		int B = Integer.parseInt(st.nextToken());
 			
 		System.out.print(A+B);
-		bf.close(); //close는 명시적으로 최적화를 위해 꼭 붙여주는게 좋음
+		br.close(); //close는 명시적으로 최적화를 위해 꼭 붙여주는게 좋음
 		//2. Buffer -> 속도 거의 2배 차이남, 버퍼쓰는게 더 이득
 		//bufferwriter을 사용시 형변환이 필수라 속도 저하되 그냥 print 사용
 	}
