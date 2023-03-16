@@ -37,7 +37,7 @@ public class B_2884 {
 		//2. // + buffer - 152ms
 	}
 }
-// 조건에 맞게 수를 변화해 출력하는 문제
+// 시간을 변화해 출력하는 문제
 /* 이 문제에서 입력을 받는 경우에는 
    Scanner, 
    bufferReader - StringTokenizer, 
