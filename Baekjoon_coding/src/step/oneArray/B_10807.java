@@ -66,6 +66,13 @@ public class B_10807 {
             즉, 연관된 데이터를 그룹화하여 묶어준다고 생각
       장점 : 연관된 데이터를 저장하기 위한 변수의 선언을 줄여주며, 
             반복문 등을 이용하여 계산과 같은 과정을 쉽게 처리할 수 있다.
+            
+      ! 유의) 배열의 길이는 고정되어있다.
+            : 배열의 길이를 먼저 설정하여 배열 변수를 먼저 생성한 다음 그 값은 나중에 대입하는 방법이다.
+            즉, 다음과 같은 코드는 불가능하다.
+			String[] weeks = new String[];    
+			// 길이에 대한 숫자값이 없으므로 컴파일 오류가 발생한다.
+
    * 일차원 배열
    1. 선언 및 사용법
       - 배열을 선언하는 방법 -> 자료형 [] 배열이름
@@ -80,6 +87,12 @@ public class B_10807 {
  		int[] intArr4 = new int[10];    //size 10, index range from 0 to 9
  		int[] intArr5 = {1, 2, 3, 4, 0}; //size 5, index range from 0 to 4
  	
+ 	  - 배열의 길이 접근 -> 배열이름.length
+ 	    System.out.println(intArr5.length) = 5
+ 	    
+ 	  - 배열의 값 접근
+ 	    System.out.println(intArr5[0]); = 1
+ 	  
  	  - 배열 전체 출력
  	    System.out.println(Arrays.toString(intArr5)); = [1, 2, 3, 4, 0]
  */
