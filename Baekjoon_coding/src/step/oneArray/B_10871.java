@@ -17,8 +17,7 @@ public class B_10871 {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int n = Integer.parseInt(st.nextToken()); //정수의 개수
 		int x = Integer.parseInt(st.nextToken()); //비교할 수 x
-		
-		// 기본 입력된 조건
+		// 기본 입력된 내용
 		
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringBuilder sb = new StringBuilder();
