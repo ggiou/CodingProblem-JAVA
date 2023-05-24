@@ -1,4 +1,4 @@
-package step.oneArray;
+package test;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -27,9 +27,9 @@ public class ex_test {
 		
 		
 		/*
-		 * String name = "í•˜ëŠ˜"; String viewName = "";
+		 * String name = "?•˜?Š˜"; String viewName = "";
 		 * 
-		 * String n = "Goose, Yumi, Jiwan, ë‚˜ë¦¬, ì¬ë¯¸, í•˜ëŠ˜"; int index = n.indexOf(name); if
+		 * String n = "Goose, Yumi, Jiwan, ?‚˜ë¦?, ?¬ë¯?, ?•˜?Š˜"; int index = n.indexOf(name); if
 		 * (index >= 0 && n.length() > index + name.length() + 2 && n.substring(index +
 		 * name.length(), index + name.length() + 2).equals(", ")) {
 		 * System.out.println("There is a \", \" after"); viewName =
@@ -40,15 +40,15 @@ public class ex_test {
 		
 		
 		/*
-		 * String roomName = "ì˜í¬, ìˆ˜ì •, ê°€ëŒ"; String me = "ìˆ˜ì •";
+		 * String roomName = "?˜?¬, ?ˆ˜? •, ê°??Œ"; String me = "?ˆ˜? •";
 		 * 
 		 * String[] names = roomName.split(", "); String viewName = "";
 		 * 
 		 * if (names[names.length - 1].equals(me)) { viewName = roomName.replaceAll(", "
-		 * + me, ""); //ë‚´ ì´ë¦„ì´ ë§ˆì§€ë§‰ì¸ ê²½ìš° ì•ì˜ , ì™€ í•¨ê»˜ ì œê±° } else { viewName =
-		 * roomName.replaceAll(me + ", ", ""); //ë‚´ ì´ë¦„ì´ ë§ˆì§€ë§‰ì´ ì•„ë‹Œ ê²½ìš° ë’¤ì— , ì™€ í•¨ê»˜ ì œê±° }
+		 * + me, ""); //?‚´ ?´ë¦„ì´ ë§ˆì?ë§‰ì¸ ê²½ìš° ?•?˜ , ?? ?•¨ê»? ? œê±? } else { viewName =
+		 * roomName.replaceAll(me + ", ", ""); //?‚´ ?´ë¦„ì´ ë§ˆì?ë§‰ì´ ?•„?‹Œ ê²½ìš° ?’¤?— , ?? ?•¨ê»? ? œê±? }
 		 * 
-		 * if (!viewName.contains(",")) { viewName = "ëŒ€í™” ìƒëŒ€ ì—†ìŒ"; }
+		 * if (!viewName.contains(",")) { viewName = "???™” ?ƒ?? ?—†?Œ"; }
 		 * System.out.println(viewName);
 		 */
         
@@ -84,13 +84,13 @@ public class ex_test {
 		List<int[]> arr = new ArrayList<int[]>();
 		int done = total / 20;
 		int num = total % 20;
-		System.out.println("ë½‘ì•„ì•¼ í•  ê°œìˆ˜ : " + num);
+		System.out.println("ë½‘ì•„?•¼ ?•  ê°œìˆ˜ : " + num);
 		int[] maxA = {6, 6, 2, 1, 1, 2, 4};
 		int[] rearA = {0, 0, 0, 0, 0, 0, 0};
 
 		List<Integer> availableIndexes = new ArrayList<>();
 		for (int i = 1; i <= 7; i++) {
-		availableIndexes.add(i - 1); // ì¸ë±ìŠ¤ëŠ” 0ë¶€í„° ì‹œì‘í•˜ê¸° ë•Œë¬¸ì— -1 í•´ì¤Œ
+		availableIndexes.add(i - 1); // ?¸?±?Š¤?Š” 0ë¶??„° ?‹œ?‘?•˜ê¸? ?•Œë¬¸ì— -1 ?•´ì¤?
 		}
 
 		Random random = new Random();
@@ -98,8 +98,8 @@ public class ex_test {
 		int availableIndex = random.nextInt(availableIndexes.size());
 		int index = availableIndexes.get(availableIndex);
 
-		rearA[index]++; // í•´ë‹¹ ì¸ë±ìŠ¤ì— 1 ì¶”ê°€
-		if (rearA[index] == maxA[index]) { // í•´ë‹¹ ì¸ë±ìŠ¤ì— ë“¤ì–´ê°ˆ ìˆ˜ ìˆëŠ” ì¹´ë“œë¥¼ ë‹¤ ë½‘ì•˜ë‹¤ë©´, í•´ë‹¹ ì¸ë±ìŠ¤ëŠ” ë”ì´ìƒ ë½‘ì§€ ì•ŠìŒ
+		rearA[index]++; // ?•´?‹¹ ?¸?±?Š¤?— 1 ì¶”ê?
+		if (rearA[index] == maxA[index]) { // ?•´?‹¹ ?¸?±?Š¤?— ?“¤?–´ê°? ?ˆ˜ ?ˆ?Š” ì¹´ë“œë¥? ?‹¤ ë½‘ì•˜?‹¤ë©?, ?•´?‹¹ ?¸?±?Š¤?Š” ?”?´?ƒ ë½‘ì? ?•Š?Œ
 		    availableIndexes.remove(availableIndex);
 		}
 		}
@@ -113,7 +113,7 @@ public class ex_test {
 		// ê²°ê³¼ ì¶œë ¥
 		System.out.println(Arrays.toString(rearA));
 		
-		System.out.println("ì‹¤ì œ");
+		System.out.println("?‹¤? œ");
 		System.out.println(Arrays.toString(arr.get(0)));
 		
 		/*
