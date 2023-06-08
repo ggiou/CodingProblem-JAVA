@@ -6,3 +6,6 @@
 
 ## **2. Swea_coding** (SW Expert Academy)
 #### This is the code that solves SWEA problems in Java.
+
+## **3. Programmers_coding** (Programmers)
+#### This is the code that solves Programmers codingTestProblems in Java.
