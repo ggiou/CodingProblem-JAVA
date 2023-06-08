@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RunningRace {
+public class P_RunningRace {
 
 	public static String[] solution(String[] players, String[] callings) {
 		String[] answer = new String[players.length];
