@@ -1,4 +1,4 @@
-package lv1.page2;
+package lv1;
 
 import java.util.ArrayList;
 import java.util.Collections;

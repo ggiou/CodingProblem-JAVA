@@ -1,4 +1,4 @@
-package lv1;
+package lv1.page1;
 
 import java.util.HashMap;
 import java.util.Map;
