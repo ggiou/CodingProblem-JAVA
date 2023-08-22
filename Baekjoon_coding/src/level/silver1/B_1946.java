@@ -52,7 +52,7 @@ public class B_1946 {
 			}
 			sb.append(cnt).append("\n");
 		}
-		System.out.println(sb.toString());
+		//System.out.println(sb.toString());
 		//1. Buffer + StringBuilder = 1596ms
 	}
 
